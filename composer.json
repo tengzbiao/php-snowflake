@@ -1,0 +1,23 @@
+{
+  "name": "tengzbiao/php-snowflake",
+  "description": "A package for create unique id by snowflake",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "tengzbiao",
+      "email": "tengzbiao@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "tengzbiao\\Snowflake\\": "src/Snowflake/"
+    }
+  }
+}
